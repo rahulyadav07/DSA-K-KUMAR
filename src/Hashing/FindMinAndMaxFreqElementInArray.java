@@ -1,6 +1,7 @@
 package Hashing;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class FindMinAndMaxFreqElementInArray {
@@ -21,15 +22,19 @@ public class FindMinAndMaxFreqElementInArray {
 
         for(int value:arr) {
            map.put(value, map.getOrDefault(value, 0)+1);
-           if(maxFre<map.get(value)) {
-               maxFre = map.get(value);
-               maxValue = value;
+        }
+        for(Map.Entry<Integer, Integer> value :map.entrySet()) {
 
-           }
-           if (minFre>map.get(value) || map.get(value) == 1) {
-               minValue = value;
-               minFre = map.get(value);
-           }
+            if(maxFre<value.getValue()) {
+                maxFre = value.getValue();
+                maxValue = value.getKey();
+
+            }
+            if (minFre>value.getValue()) {
+                minFre = value.getValue();
+                minValue = value.getKey();
+            }
+
         }
 
         System.out.println(" Min Freq and Min Value " + minFre + " " +minValue);
