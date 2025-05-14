@@ -14,6 +14,7 @@ public class SumOfRange {
        ));
 
     }
+    // pahle prefix sum nikal liya uuske baad jo left index ki value m jo sum pda tha usse right usse ek peech se usse minus kr diya
     private static int sumOfRange(int[] arr, int left, int right) {
         for(int i =1;i<arr.length;i++) {
             arr[i] = arr[i-1]+arr[i];
