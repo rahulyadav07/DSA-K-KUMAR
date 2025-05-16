@@ -9,6 +9,10 @@ public class CountTheNumberOfSubArrayWithSumK {
         System.out.print(countNumberOfSubArray(arr, 5));
 
     }
+
+    /**
+     *prefix sum nikalta chal sum mae aur jaha tujhe sum-k = x prefix sum mae map pahle se h toh ye valid subarray h .
+     */
     private static int countNumberOfSubArray(int[] arr, int k ) {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0,1);
