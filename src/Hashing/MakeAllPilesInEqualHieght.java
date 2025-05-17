@@ -25,7 +25,8 @@ public class MakeAllPilesInEqualHieght {
     }
 
     /**
-     *
+     *bhai hash map bana usme sbki frequency daal ske baad last se second last ko replace kr jaise 5=2, 4=2, 2=1 toh fiorst mae
+     * 5 =0, 4 =4
      */
     private static int countStepToMakePilesInSameHeight(int[] arr) {
         Map<Integer, Integer> map= new TreeMap<>(Collections.reverseOrder());
