@@ -23,7 +23,7 @@ public class LongestSbaarayWithZeroSum {
             if (map.containsKey(sum)) {
                 maxLength = Math.max(maxLength, i - map.get(sum)); // ✅ only use if key exists
             } else {
-                map.put(sum, i); // 👈 only put if not already present
+                map.put(sum, i);
             }
         }
         return maxLength;
