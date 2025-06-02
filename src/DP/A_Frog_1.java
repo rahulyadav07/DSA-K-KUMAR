@@ -29,6 +29,8 @@ public class A_Frog_1 {
             long[] dp = new long[n+1];
 
             dp[1] = 0;
+
+
             dp[2] = Math.abs(b[1] - b[2]);
 
             for (int i = 3; i <= n; i++) {
