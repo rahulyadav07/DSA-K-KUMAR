@@ -26,6 +26,8 @@ public class A_Frog_1 {
                 b[i] = scanner.nextLong();
             }
 
+
+
             long[] dp = new long[n+1];
 
             dp[1] = 0;
