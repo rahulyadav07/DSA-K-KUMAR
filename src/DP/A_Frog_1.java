@@ -22,6 +22,7 @@ public class A_Frog_1 {
             int n = scanner.nextInt();
             long[] b = new long[n+1];
 
+
             for (int i = 1; i <= n; i++) {
                 b[i] = scanner.nextLong();
             }
