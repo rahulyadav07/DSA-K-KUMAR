@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodeChef/CodeChef.iml" filepath="$PROJECT_DIR$/CodeChef/CodeChef.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA K KUMAR.iml" filepath="$PROJECT_DIR$/DSA K KUMAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
     </modules>
   </component>
 </project>
