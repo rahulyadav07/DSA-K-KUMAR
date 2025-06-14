@@ -11,7 +11,8 @@ public class CountTheNumberOfSubArrayWithSumK {
     }
 
     /**
-     *prefix sum nikalta chal sum mae aur jaha tujhe sum-k = x prefix sum mae map pahle se h toh ye valid subarray h .
+     *prefix sum nikalta chal sum mae aur jaha tujhe sum-k = x prefix
+     *  sum mae map pahle se h toh ye valid subarray h .
      */
     private static int countNumberOfSubArray(int[] arr, int k ) {
         HashMap<Integer, Integer> map = new HashMap<>();
