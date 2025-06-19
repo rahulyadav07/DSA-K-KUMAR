@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class FindLargestOrSmallestSubarrayWithSumK {
     //3,1 3,-2, 2
     public static void main(String[] args) {
-        int[] arr = {3,1,3,-2,2};
+        int[] arr = {3,1,3,2,2,2};
 
         int[] result = largestOrSmallestSubarray(arr, 4);
 
