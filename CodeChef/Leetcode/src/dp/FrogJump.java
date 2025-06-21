@@ -1,3 +1,5 @@
+package dp;
+
 /**
  * @url [https://takeuforward.org/plus/dsa/problems/frog-jump]
  * A frog wants to climb a staircase with n steps. Given an integer array heights, where heights[i] contains the height of the ith step.
