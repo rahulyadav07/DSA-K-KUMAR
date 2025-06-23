@@ -15,6 +15,7 @@ public class Kadane_Algorithem {
             if (currentSum >=0) {
                 currentSum = currentSum+arr[i];
             }
+
             else{
                 currentSum = arr[i];
             }
