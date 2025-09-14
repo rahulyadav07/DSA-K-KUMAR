@@ -9,14 +9,23 @@ public class SingletonPattern {
     }
 
 
-    private static synchronized SingletonPattern getInstance() {
+    private static  SingletonPattern getInstance() {
         if (instance == null) {
-            instance =  new SingletonPattern();
-            return instance;
+            synchronized (SingletonPattern.class) {
+                if (instance == null) {
+                    instance =  new SingletonPattern();
+                    return instance;
+                }
+                else {
+                    return instance;
+                }
+            }
         }
         else {
             return instance;
         }
+
+
     }
 
 }
